@@ -69,6 +69,7 @@
 		B7B4223C1B4F434B004B4F22 /* xni_ib.c in Sources */ = {isa = PBXBuildFile; fileRef = B7B421F01B4F434B004B4F22 /* xni_ib.c */; };
 		B7B4223D1B4F434B004B4F22 /* xni_tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = B7B421F21B4F434B004B4F22 /* xni_tcp.c */; };
 		B7B422461B4F456F004B4F22 /* libxdd.c in Sources */ = {isa = PBXBuildFile; fileRef = B7B4223F1B4F456F004B4F22 /* libxdd.c */; };
+		B7C377681C21CDF600B0223A /* xdd_main.c in Sources */ = {isa = PBXBuildFile; fileRef = B7C377671C21CDF600B0223A /* xdd_main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -196,6 +197,7 @@
 		B7B422411B4F456F004B4F22 /* libxdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libxdd.h; sourceTree = "<group>"; };
 		B7B422441B4F456F004B4F22 /* xdd_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xdd_types.h; sourceTree = "<group>"; };
 		B7B422451B4F456F004B4F22 /* xdd_types_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xdd_types_internal.h; sourceTree = "<group>"; };
+		B7C377671C21CDF600B0223A /* xdd_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xdd_main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +283,7 @@
 				B7B421911B4F434B004B4F22 /* signals.c */,
 				B7B421921B4F434B004B4F22 /* utils.c */,
 				B7B421931B4F434B004B4F22 /* xdd.c */,
+				B7C377671C21CDF600B0223A /* xdd_main.c */,
 			);
 			name = client;
 			path = xdd/src/client;
@@ -501,6 +504,7 @@
 				B7B422081B4F434B004B4F22 /* worker_thread_io_for_os.c in Sources */,
 				B7B422031B4F434B004B4F22 /* verify.c in Sources */,
 				B7B422241B4F434B004B4F22 /* xdd.c in Sources */,
+				B7C377681C21CDF600B0223A /* xdd_main.c in Sources */,
 				B7B422001B4F434B004B4F22 /* target_ttd_after_pass.c in Sources */,
 				B7B4221E1B4F434B004B4F22 /* parse_func.c in Sources */,
 				B7B422251B4F434B004B4F22 /* access_pattern.c in Sources */,
