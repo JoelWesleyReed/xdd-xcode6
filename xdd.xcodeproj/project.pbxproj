@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7730C7C1D468B280097CF9F /* bitarray.c in Sources */ = {isa = PBXBuildFile; fileRef = B7730C7A1D468B280097CF9F /* bitarray.c */; };
 		B7B421F31B4F434B004B4F22 /* heartbeat.c in Sources */ = {isa = PBXBuildFile; fileRef = B7B421551B4F434B004B4F22 /* heartbeat.c */; };
 		B7B421F41B4F434B004B4F22 /* io_buffers.c in Sources */ = {isa = PBXBuildFile; fileRef = B7B421561B4F434B004B4F22 /* io_buffers.c */; };
 		B7B421F51B4F434B004B4F22 /* lockstep.c in Sources */ = {isa = PBXBuildFile; fileRef = B7B421571B4F434B004B4F22 /* lockstep.c */; };
@@ -86,6 +87,8 @@
 
 /* Begin PBXFileReference section */
 		B75A9F261A9C007400BB26C5 /* xdd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xdd; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7730C7A1D468B280097CF9F /* bitarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitarray.c; sourceTree = "<group>"; };
+		B7730C7B1D468B280097CF9F /* bitarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitarray.h; sourceTree = "<group>"; };
 		B7B421551B4F434B004B4F22 /* heartbeat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = heartbeat.c; sourceTree = "<group>"; };
 		B7B421561B4F434B004B4F22 /* io_buffers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = io_buffers.c; sourceTree = "<group>"; };
 		B7B421571B4F434B004B4F22 /* lockstep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lockstep.c; sourceTree = "<group>"; };
@@ -292,6 +295,8 @@
 		B7B421941B4F434B004B4F22 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				B7730C7A1D468B280097CF9F /* bitarray.c */,
+				B7730C7B1D468B280097CF9F /* bitarray.h */,
 				B7B421961B4F434B004B4F22 /* access_pattern.c */,
 				B7B421971B4F434B004B4F22 /* access_pattern.h */,
 				B7B421981B4F434B004B4F22 /* barrier.c */,
@@ -532,6 +537,7 @@
 				B7B4222C1B4F434B004B4F22 /* timestamp.c in Sources */,
 				B7B422351B4F434B004B4F22 /* net_utils.c in Sources */,
 				B7B422331B4F434B004B4F22 /* end_to_end.c in Sources */,
+				B7730C7C1D468B280097CF9F /* bitarray.c in Sources */,
 				B7B422221B4F434B004B4F22 /* signals.c in Sources */,
 				B7B422041B4F434B004B4F22 /* worker_thread.c in Sources */,
 				B7B4222B1B4F434B004B4F22 /* target_data.c in Sources */,
